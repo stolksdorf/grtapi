@@ -26,8 +26,11 @@ app.get('/api', function (req, res) {
 });
 
 app.get('/api/widget' , function(req, res){
-	console.log("Received a GEt Request");
+	console.log("Received a GEt Request", req.body);
 	return WidgetModel.find(function (err, widgets){
+
+		console.log("I got this!");
+
 		if(!err){
 			return res.send(widgets);
 		} else {
@@ -42,7 +45,7 @@ app.post('/api/widget', function(req, res){
 
 	widget = new WidgetModel({
 		key  : req.body.key,
-		value: req.body.value,
+		value: req.body.value
 	});
 
 	widget.save(function (err) {
