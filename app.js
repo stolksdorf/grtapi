@@ -22,23 +22,23 @@ app.configure(function () {
 
 //REST Commands
 app.get('/api', function (req, res) {
-  res.send('Ecomm API is running');
+  res.send('GRTAPI is running');
 });
 
 app.get('/api/widget' , function(req, res){
+	console.log("Received a GEt Request");
 	return WidgetModel.find(function (err, widgets){
 		if(!err){
 			return res.send(widgets);
 		} else {
-			return console.log(err);
+			return console.log("GET ERR: ",err);
 		}
 	});
 });
 
 app.post('/api/widget', function(req, res){
 	var widget;
-	console.log("POST: ");
-	console.log(req.body);
+	console.log("Received POST request: ", req.body);
 
 	widget = new ProductModel({
 		key  : req.body.key,
@@ -49,7 +49,7 @@ app.post('/api/widget', function(req, res){
 		if (!err) {
 			return console.log("created");
 		} else {
-			return console.log(err);
+			return console.log("POST ERR: ", err);
 		}
 	});
 
