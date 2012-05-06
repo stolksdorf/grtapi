@@ -41,7 +41,7 @@ var TimeSchema = new Schema({
 
 var StopBusSchema = new Schema({
 	busnum  : {type : String},
-	stopnum : (type : String)
+	stopnum : {type : String}
 });
 
 var StopModel = mongoose.model('Stop', StopSchema);
