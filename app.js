@@ -26,11 +26,9 @@ app.get('/api', function (req, res) {
 });
 
 app.get('/api/widget' , function(req, res){
-	console.log("Received a GEt Request", req.body);
-	return WidgetModel.find(function (err, widgets){
-
-		console.log("I got this!");
-
+	console.log("Received a GET Request", req.body);
+	return WidgetModel.find({}, function (err, widgets){
+		console.log("widgets:", widgets);
 		if(!err){
 			return res.send(widgets);
 		} else {
