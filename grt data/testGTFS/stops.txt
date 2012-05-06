@@ -1,0 +1,5 @@
+stop_lat,zone_id,stop_lon,stop_id,stop_desc,stop_name,location_type
+43.498785,,-80.498918,2031,easyGO 2031,Meadowvale / Dansbury,0
+43.433097,,-80.436623,1869,easyGO 1869,Kinzie / Walker,0
+43.434163,,-80.43499,1868,easyGO 1868,Kinzie / Obermeyer,0
+43.41642497,,-80.38766914,2318,easyGO 2318,Maple Grove / Cherry Blossom,0
