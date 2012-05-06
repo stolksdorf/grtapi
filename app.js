@@ -36,7 +36,7 @@ app.configure(function () {
 
 //REST Commands
 app.get('/api', function (req, res) {
-  res.send('GRTAPI is running');
+  res.send('GRTAPI is running, fuck yeah!');
 });
 
 app.get('/api/widget' , function(req, res){
