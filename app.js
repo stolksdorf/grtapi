@@ -40,7 +40,7 @@ app.post('/api/widget', function(req, res){
 	var widget;
 	console.log("Received POST request: ", req.body);
 
-	widget = new ProductModel({
+	widget = new WidgetModel({
 		key  : req.body.key,
 		value: req.body.value,
 	});
@@ -61,7 +61,7 @@ app.post('/api/widget', function(req, res){
 
 var Schema = mongoose.Schema;
 var Widget = new Schema({
-	key      : {type : String, required : true}.
+	key      : {type : String},
 	value    : {type : String},
 	modified : {type : Date, default : Date.now}
 });
