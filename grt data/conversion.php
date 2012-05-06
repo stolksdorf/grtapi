@@ -15,8 +15,8 @@ $outTimes = array();
 
 
 function extractCSV($path){	
-	$basePath = '\GRT_GTFS';
-	//$basePath = '\testGTFS';
+	//$basePath = '\GRT_GTFS';
+	$basePath = '\testGTFS';
 
 	$tokens = explode("\n", file_get_contents(dirname(__FILE__) . $basePath . $path));
 	$index = explode(",", str_replace(array("\r", "\n"), '', $tokens[0]));
@@ -34,7 +34,7 @@ function buildStopTable($inStops){
 	foreach($inStops as $stop){
 		sendToEC2('/stop', array(
 				'stopnum' => $stop['stop_id'],
-				'address' => $stop['stop_name'],
+				'stopname' => $stop['stop_name'],
 				'gpslat'  => $stop['stop_lat'],
 				'gpslon'  => $stop['stop_lon']
 		));
@@ -42,12 +42,9 @@ function buildStopTable($inStops){
 }
 
 function buildBusAndTimeTable($inTrips, $inTimes){
-	$outBuses = array();
-	$outTimes = array();
-
 	$processedBuses = array();
 	foreach($inTimes as $time){
-		$trip = findInTrip($time['trip_id']);
+		$trip = findInTrip($time['trip_id'], $inTrips);
 
 		//process the bus num
 		$busnum = $trip['route_id'];
@@ -87,8 +84,8 @@ function sendToEC2($resource, $data){
 }
 
 //Returns a trip obj based on a trip ID
-function findInTrip($tripId){
-	global $inTrips;
+function findInTrip($tripId, $inTrips){
+
 	foreach($inTrips as $trip){	
 		if($tripId == $trip['trip_id']){
 			return $trip;

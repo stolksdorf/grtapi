@@ -29,7 +29,6 @@ var StopSchema = new Schema({
 });
 
 var BusSchema = new Schema({
-	stopnum  : {type : String},
 	busnum   : {type : String},
 	busdesc  : {type : String}
 });
@@ -40,21 +39,15 @@ var TimeSchema = new Schema({
 	time     : {type : String}
 });
 
+var StopBusSchema = new Schema({
+	busnum  : {type : String},
+	stopnum : (type : String)
+});
+
 var StopModel = mongoose.model('Stop', StopSchema);
 var BusModel  = mongoose.model('Bus' , BusSchema);
 var TimeModel = mongoose.model('Time', TimeSchema);
-
-/*
-var Widget = new Schema({
-	key      : {type : String},
-	value    : {type : String},
-	modified : {type : Date, default : Date.now}
-});
-var WidgetModel = mongoose.model('Widget', Widget);
-*/
-
-
-
+var StopBus   = mongoose.model('StopBus', StopBusSchema);
 
 
 
@@ -63,6 +56,14 @@ var WidgetModel = mongoose.model('Widget', Widget);
 //Launch Site
 app.get('/api', function (req, res) {
   res.send('GRTAPI is running, fuck yeah!');
+});
+
+//HACK: Remove after testing
+app.get('/api/dump', function(req, res){
+	StopModel.collection.drop();
+	BusModel.collection.drop();
+	TimeModel.collection.drop();
+	res.send('Database cleared');
 });
 
 
@@ -107,10 +108,6 @@ app.get('/api/search', function(req, res){
 
 
 
-
-
-
-
 ////////////REST POST Commands
 app.post('/api/stop', function(req, res){
 	var stop = new StopModel({
@@ -132,7 +129,6 @@ app.post('/api/stop', function(req, res){
 
 app.post('/api/bus', function(req, res){
 	var bus = new BusModel({
-		stopnum  : req.body.stopnum,
 		busnum   : req.body.busnum,
 		busdesc  : req.body.busdesc
 	});
@@ -151,7 +147,7 @@ app.post('/api/time', function(req, res){
 	var time = new TimeModel({
 		stopnum  : req.body.stopnum,
 		busnum   : req.body.busnum,
-		time     : req.body.busdesc
+		time     : req.body.time
 	});
 
 	time.save(function (err) {
@@ -164,6 +160,22 @@ app.post('/api/time', function(req, res){
 		}
 	});
 	return res.send(time);
+});
+
+app.post('/api/stopbus', function(req, res){
+	var stopbus = new StopBusModel({
+		stopnum  : req.body.stopnum,
+		busnum   : req.body.busnum
+	});
+
+	stopbus.save(function (err) {
+		if (!err) {
+			return console.log("Added New Stop: " + req.body.stopnum + " for " + req.body.busnum);
+		} else {
+			return console.log("POST Time ERR: ", err);
+		}
+	});
+	return res.send(stopbus);
 });
 
 
