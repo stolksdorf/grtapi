@@ -1,19 +1,7 @@
-/*
-var app = require('express').createServer();
-
-app.get('/', function(req, res){
-  res.send('hello my sweetest banana');
-});
-
-app.listen(80);
-*/
-
-///////////////////////////
-
 var application_root = __dirname,
     express = require("express");
-   // path = require("path"),
-    //mongoose = require('mongoose');
+    path = require("path"),
+    mongoose = require('mongoose');
 
 var app = express.createServer();
 
