@@ -1,7 +1,7 @@
 var application_root = __dirname,
     express = require("express"),
     path = require("path"),
-    mongoose = require('mongoose'),
+    mongoose = require('mongoose');
 
 
 var app = express.createServer();

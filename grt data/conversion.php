@@ -2,6 +2,7 @@
 include_once(dirname(__FILE__).  '\pest\PestJSON.php');
 
 $baseUrl = 'http://107.21.214.193/api';
+$pest = new pestJSON($baseUrl);
 
 //Database vars
 $inTimes = array();
@@ -14,8 +15,8 @@ $outTimes = array();
 
 
 function extractCSV($path){	
-	//$basePath = '\GRT_GTFS';
-	$basePath = '\testGTFS';
+	$basePath = '\GRT_GTFS';
+	//$basePath = '\testGTFS';
 
 	$tokens = explode("\n", file_get_contents(dirname(__FILE__) . $basePath . $path));
 	$index = explode(",", str_replace(array("\r", "\n"), '', $tokens[0]));
@@ -29,39 +30,9 @@ function extractCSV($path){
 	return $result;
 }
 
-
-
-
-
-function extractRawFiles(){
-	global $inTimes, $inStops, $inTrips;
-	echo "Extracting Stops\n";
-	$inStops = extractCSV('\stops.txt');
-
-	echo "Extracting Trips\n";
-	$inTrips = extractCSV('\trips.txt');
-
-	echo "Extracting Stop Times\n";
-	$inTimes = extractCSV('\stop_times.txt');
-
-	echo "Finished Extraction.\n";
-}
-
-function printDatabaseVars(){
-	global $outStops, $outBuses, $outTimes;
-	echo print_r($outStops, true);
-	echo print_r($outTimes, true);
-	echo print_r($outBuses, true);
-}
-
-
-
-
-
-function buildStopTable(){
-	global $inStops, $outStops;
+function buildStopTable($inStops){
 	foreach($inStops as $stop){
-		array_push($outStops, array(
+		sendToEC2('/stop', array(
 				'stopnum' => $stop['stop_id'],
 				'address' => $stop['stop_name'],
 				'gpslat'  => $stop['stop_lat'],
@@ -70,10 +41,9 @@ function buildStopTable(){
 	}
 }
 
-
-
-function buildBusAndTimeTable(){
-	global $inTimes, $inTrips, $outBuses, $outTimes;
+function buildBusAndTimeTable($inTrips, $inTimes){
+	$outBuses = array();
+	$outTimes = array();
 
 	$processedBuses = array();
 	foreach($inTimes as $time){
@@ -86,24 +56,35 @@ function buildBusAndTimeTable(){
 			$busnum = $busnum . $trip['trip_headsign'][0];
 			$busdesc = substr($busdesc,2);
 		}
-		array_push($outTimes, array(
+
+		sendToEC2('/time', array(
 		           'stopnum' => $time['stop_id'],
 		           'busnum'  => $busnum,
 		           'time'    => $time['departure_time']
 		));
 
-		if(!in_array($busnum, $processedBuses)){
-			array_push($outBuses, array(
+		//if(!in_array($busnum, $processedBuses)){
+			sendToEC2('/bus', array(
 			        'stopnum' => $time['stop_id'],
 			        'busnum'  => $busnum,
 			        'busdesc' => $busdesc
 			));
-			array_push($processedBuses, $busnum);
-		}
+			//array_push($processedBuses, $busnum);
+		//}
 	}
+
 }
 
 
+function sendToEC2($resource, $data){
+	global $pest;
+	$demo = true;
+	if($demo){
+		echo print_r($data,true);
+	}else{
+		$pest->post($resource, $data);
+	}
+}
 
 //Returns a trip obj based on a trip ID
 function findInTrip($tripId){
@@ -118,20 +99,12 @@ function findInTrip($tripId){
 
 
 
+buildStopTable(extractCSV('\stops.txt'));
 
-
-extractRawFiles();
-buildStopTable();
-buildBusAndTimeTable();
-printDatabaseVars();
-
-
-
-//echo print_r($outStops,true);
-
-//echo print_r(findInTrip("549305"));
-
-
+buildBusAndTimeTable(
+        extractCSV('\trips.txt'),
+        extractCSV('\stop_times.txt')
+);
 echo "Finished";
 
 
