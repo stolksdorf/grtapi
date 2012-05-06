@@ -1,0 +1,200 @@
+stop_lat,zone_id,stop_lon,stop_id,stop_desc,stop_name,location_type
+43.498785,,-80.498918,2031,easyGO 2031,Meadowvale / Dansbury,0
+43.433097,,-80.436623,1869,easyGO 1869,Kinzie / Walker,0
+43.434163,,-80.43499,1868,easyGO 1868,Kinzie / Obermeyer,0
+43.41642497,,-80.38766914,2318,easyGO 2318,Maple Grove / Cherry Blossom,0
+43.45187,,-80.487045,2319,easyGO 2319,Weber / Queen,0
+43.42906,,-80.379022,2316,easyGO 2316,Loblaws,0
+43.423803,,-80.38154,2317,easyGO 2317,Maple Grove / Fountain,0
+43.41628,,-80.37569,2314,easyGO 2314,Fountain / Toyota Gate 1,0
+43.418968,,-80.376648,2315,easyGO 2315,Fountain / Toyota Gate 2,0
+43.4126,,-80.3751,2312,easyGO 2312,Cherry Blossom / Fountain,0
+43.415303,,-80.383427,2310,easyGO 2310,Cherry Blossom / Barnes,0
+43.4827,,-80.5239,3773,easyGO 3773,Columbia / Weber,0
+43.483,,-80.5236,3772,easyGO 3772,Columbia / Weber,0
+43.4841,,-80.5205,3771,easyGO 3771,Columbia / Marsland,0
+43.4875,,-80.5185,3770,easyGO 3770,Lexington / Dearborn,0
+43.4969,,-80.5459,3777,easyGO 3777,Parkside / Northfield,0
+43.4949,,-80.5445,3776,easyGO 3776,551 Parkside Dr,0
+43.4934,,-80.5444,3775,easyGO 3775,Parkside / Weber,0
+43.4945,,-80.5484,3774,easyGO 3774,Weber / Glen Forrest,0
+43.460452,,-80.507893,3234,easyGO 3234,Moore / Graham,0
+43.35859,,-80.317492,2268,easyGO 2268,Grand / South Square,0
+43.354137,,-80.302748,2269,easyGO 2269,Christopher / Elliott,0
+43.342903,,-80.327752,2262,easyGO 2262,Fourth / Vincent,0
+43.34317,,-80.331443,2263,easyGO 2263,Fourth / St Andrews,0
+43.340993,,-80.32386,2260,easyGO 2260,Culham / Tait,0
+43.343533,,-80.324195,2261,easyGO 2261,Tait / Fourth,0
+43.350137,,-80.336173,2266,easyGO 2266,Southwood / Cedar,0
+43.351588,,-80.328497,2267,easyGO 2267,Westgate Centre,0
+43.344695,,-80.331595,2264,easyGO 2264,Southwood / St Andrews,0
+43.346087,,-80.334843,2265,easyGO 2265,Southwood / Westwood,0
+43.469296,,-80.484374,2442,easyGO 2442,Lancaster / Ash,0
+43.468057,,-80.484342,2443,easyGO 2443,Lancaster / Arnold,0
+43.47506,,-80.48445,2440,easyGO 2440,Lancaster / Hamel,0
+43.471371,,-80.484452,2441,easyGO 2441,Lancaster / Union,0
+43.462147,,-80.483798,2446,easyGO 2446,Lancaster / Louisa,0
+43.460708,,-80.484153,2447,easyGO 2447,Wellington / Major,0
+43.465378,,-80.4843,2444,easyGO 2444,Lancaster / Guelph,0
+43.46412,,-80.484247,2445,easyGO 2445,Lancaster / Hill,0
+43.45983,,-80.486818,2448,easyGO 2448,Wellington / St Leger,0
+43.458697,,-80.490313,2449,easyGO 2449,Wellington / Margaret,0
+43.499703,,-80.537457,2046,easyGO 2046,Conestogo / Colby,0
+43.498483,,-80.536587,2047,easyGO 2047,Conestogo / Durward,0
+43.51014,,-80.519108,2044,easyGO 2044,Bridge / Labrador,0
+43.454347,,-80.52766,2685,easyGO 2685,Westmount / John,0
+43.452182,,-80.524937,2686,easyGO 2686,Union / Westmount,0
+43.453229,,-80.522523,2687,easyGO 2687,Union / Dunbar,0
+43.459042,,-80.536837,2680,easyGO 2680,Westmount / Erb,0
+43.457612,,-80.53533,2681,easyGO 2681,Westmount / Lourdes,0
+43.456923,,-80.53224,2682,easyGO 2682,Westmount / Dietz,0
+43.45566529,,-80.52906819,2683,easyGO 2683,Westmount / William,0
+43.400075,,-80.362027,1436,easyGO 1436,Eagle / William,0
+43.398303,,-80.363702,1437,easyGO 1437,Eagle / King,0
+43.468475,,-80.438675,1677_merged_998610,easyGO 1677,Lackner / Georgian Place,
+43.466694,,-80.586075,3392,easyGO 3392,Erbsville / White Elm,0
+43.398437,,-80.342633,1432,easyGO 1432,Langs / Fairview Mennonite,0
+43.398698,,-80.345453,1433,easyGO 1433,Concession / Winterhalt,0
+43.446045,,-80.553957,1991,easyGO 1991,Thorndale / Appledale,0
+43.389973,,-80.346597,1622,easyGO 1622,King / Bishop,0
+43.388777,,-80.344222,1621,easyGO 1621,King / Brower,0
+43.387912,,-80.342513,1620,easyGO 1620,King / Concession,0
+43.399072,,-80.364283,1627,easyGO 1627,King / Chopin,0
+43.430645,,-80.533965,3202,easyGO 3202,Bankside / Golden Terrace,0
+43.394625,,-80.355777,1625,easyGO 1625,King / Lowther,0
+43.393177,,-80.352915,1624,easyGO 1624,King / Dolph,0
+43.45949,,-80.536275,1999,easyGO 1999,Erb / Westmount,0
+43.456555,,-80.541867,1998,easyGO 1998,Erb / Mcdougall,0
+43.396142,,-80.372962,1629,easyGO 1629,Fountain / Bauman,0
+43.399956,,-80.368,1628,easyGO 1628,King / Fountain,0
+43.434542,,-80.534373,3209,easyGO 3209,Victoria / Path To Wexford,0
+43.43357,,-80.538688,3208,easyGO 3208,Victoria / Eastforest,0
+43.435892,,-80.447073,2860,easyGO 2860,Franklin / Prospect,0
+43.494357,,-80.553547,1197,easyGO 1197,Northfield / Northgate,0
+43.493527,,-80.555927,1196,easyGO 1196,Northfield / Skylark,0
+43.40878,,-80.443455,1759,easyGO 1759,Wabanaki / Kevco,0
+43.406957,,-80.448535,1758,easyGO 1758,Manitou / Wabanaki,0
+43.405483,,-80.448345,1757,easyGO 1757,334 Manitou Dr.,0
+43.40185,,-80.447687,1756,easyGO 1756,Manitou / Cayuga,0
+43.398292,,-80.446698,1755,easyGO 1755,Doon Village / Farrier,0
+43.393583,,-80.443617,1754,easyGO 1754,Doon Village / Wheatfield Park,0
+43.391897,,-80.440588,1753,easyGO 1753,Doon Village / Bechtel,0
+43.389998,,-80.444377,1752,easyGO 1752,Bechtel / Anvil,0
+43.389137,,-80.448528,1751,easyGO 1751,Bechtel / Sabrina,0
+43.391645,,-80.450683,1750,easyGO 1750,Pioneer / Black Walnut,0
+43.490542,,-80.539163,1177,easyGO 1177,Albert / Longwood,0
+43.48815,,-80.541385,1176,easyGO 1176,Albert / Greenbrier,0
+43.485738,,-80.539433,1175,easyGO 1175,Hazel / Albert,0
+43.485675,,-80.537293,1174,easyGO 1174,Hazel / Blythwood,0
+43.483773,,-80.535095,1173,easyGO 1173,Hazel / Smallwood,0
+43.481543,,-80.532912,1172,easyGO 1172,Hazel / Austin,0
+43.479566,,-80.531347,1171,easyGO 1171,Waterloo Ci,0
+43.45653,,-80.502163,3231,easyGO 3231,Moore / Shanley,0
+43.456514,,-80.542359,1968,easyGO 1968,Erb / Mulberry,0
+43.455717,,-80.544418,1969,easyGO 1969,Erb / Amos,0
+43.38386,,-80.335978,1618,easyGO 1618,Coronation / Blue Heron,0
+43.385793,,-80.338892,1619,easyGO 1619,Coronation / Oriole,0
+43.381342,,-80.331768,1616,easyGO 1616,697 Coronation,0
+43.382493,,-80.333703,1617,easyGO 1617,Coronation / Highland,0
+43.378152,,-80.326393,1614,easyGO 1614,Coronation / Oliver,0
+43.458883,,-80.515292,3239,easyGO 3239,Union / King,0
+43.463747,,-80.524582,1960,easyGO 1960,Caroline / Erb,0
+43.46414,,-80.525997,1961,easyGO 1961,Erb / Father David Bauer,0
+43.370595,,-80.313938,1610,easyGO 1610,Dundas / Roxboro,0
+43.372242,,-80.316608,1611,easyGO 1611,Dundas / Jarvis,0
+43.381787,,-80.304962,1363,easyGO 1363,Glamis / Carter,0
+43.414648,,-80.503563,2873,easyGO 2873,Williamsburg / Dinison,0
+43.416247,,-80.505322,2872,easyGO 2872,Williamsburg / Pinedale,0
+43.418562,,-80.507933,2871,easyGO 2871,Williamsburg / Ottawa,0
+43.419653,,-80.506583,2870,easyGO 2870,Ottawa / Howe,0
+43.415867,,-80.496163,2877,easyGO 2877,Dunsmere / Colebrook,0
+43.414675,,-80.498168,2876,easyGO 2876,Dunsmere / Radcliffe,0
+43.41426,,-80.499869,2875,easyGO 2875,Dunsmere / Bosworth,0
+43.41327,,-80.502035,2874,easyGO 2874,Williamsburg / Dinison,0
+43.414867,,-80.492465,2879,easyGO 2879,Laurentian / Briar Knoll,0
+43.416309,,-80.493656,2878,easyGO 2878,Dunsmere / Laurentian,0
+43.440595,,-80.498447,3355,easyGO 3355,Queens / Highland,0
+43.439347,,-80.499678,3354,easyGO 3354,Queens / Spadina,0
+43.438092,,-80.510585,3357,easyGO 3357,Highland / Lawrence,0
+43.439443,,-80.508153,3356,easyGO 3356,Highland / Belmont,0
+43.43633,,-80.503788,3351,easyGO 3351,Queens / Belmont,0
+43.435197,,-80.505828,3350,easyGO 3350,Queens / Community Trail,0
+43.437675,,-80.500898,3353,easyGO 3353,Queens / St Marys Hospital,0
+43.437062,,-80.502088,3352,easyGO 3352,Queens / South,0
+43.426763,,-80.529348,3359,easyGO 3359,Queens / Westheights,0
+43.43639,,-80.513563,3358,easyGO 3358,Highland / Westmount,0
+43.5091,,-80.5173,3781,easyGO 3781,Chesapeake / Brigantine,0
+43.414458,,-80.479017,1768,easyGO 1768,Forest Glen Terminal,0
+43.414385,,-80.478892,1769,easyGO 1769,Forest Glen Terminal,0
+43.382662,,-80.309812,1361,easyGO 1361,Elgin / Regal,0
+43.413472,,-80.442312,1762,easyGO 1762,Wilson /Kuntz Electroplating,0
+43.415405,,-80.44227,1763,easyGO 1763,Wilson / Goodrich,0
+43.409265,,-80.441278,1760,easyGO 1760,Wabanaki / Wilson,0
+43.410893,,-80.441718,1761,easyGO 1761,Wilson / Wabanaki,0
+43.414117,,-80.478895,1766,easyGO 1766,Forest Glen Terminal,0
+43.414263,,-80.478952,1767,easyGO 1767,Forest Glen Terminal,0
+43.420792,,-80.442552,1764,easyGO 1764,Wilson / Fairway,0
+43.41392,,-80.478842,1765,easyGO 1765,Forest Glen Terminal,0
+43.493252,,-80.564747,1142,easyGO 1142,Highpoint / Cornerbrook,0
+43.491195,,-80.564522,1143,easyGO 1143,Highpoint / Wintergreen,0
+43.49483,,-80.559548,1140,easyGO 1140,Northlake / Green Meadow,0
+43.493962,,-80.562523,1141,easyGO 1141,Northlake / Pine Island,0
+43.484945,,-80.559987,1146,easyGO 1146,Highpoint / Toll Gate,0
+43.487193,,-80.556668,1147,easyGO 1147,Toll Gate / Glen Forrest,0
+43.488437,,-80.563307,1144,easyGO 1144,Highpoint / Rolling Hills,0
+43.48682,,-80.563315,1145,easyGO 1145,Highpoint / Dogwood,0
+43.486143,,-80.553573,1148,easyGO 1148,Glen Forrest / Teakwood,0
+43.48567,,-80.55156,1149,easyGO 1149,Cedarbrae / Glen Forrest,0
+43.41026,,-80.510513,2966,easyGO 2966,Wilderness / Activa,0
+43.498,,-80.4944,3787,easyGO 3787,Dansbury / Forestlawn,0
+43.403633,,-80.305995,1546,easyGO 1546,Franklin / Turnbull,0
+43.405675,,-80.306625,1547,easyGO 1547,Franklin / Sheldon,0
+43.39893,,-80.304452,1544,easyGO 1544,Franklin / Bishop,0
+43.40122,,-80.305217,1545,easyGO 1545,Franklin / Raglin,0
+43.392358,,-80.302303,1542,easyGO 1542,Franklin / Saginaw,0
+43.396343,,-80.303648,1543,easyGO 1543,Franklin / Lindsay,0
+43.381108,,-80.29918,1540,easyGO 1540,Franklin / Avenue,0
+43.385247,,-80.300802,1541,easyGO 1541,Franklin / Robson,0
+43.407877,,-80.307348,1548,easyGO 1548,Franklin / Stafford,0
+43.410413,,-80.30808,1549,easyGO 1549,Franklin / Pinebush,0
+43.4981,,-80.5036,3784,easyGO 3784,Bridge / Lexington,0
+43.399795,,-80.473807,1784,easyGO 1784,Trillium / Mcbrine,0
+43.400977,,-80.468495,1785,easyGO 1785,Trillium / Strasburg,0
+43.402248,,-80.463315,1787,easyGO 1787,Trillium / Adam Ferrie,0
+43.391406,,-80.319366,1388,easyGO 1388,Cambridge Centre Terminal,0
+43.39136,,-80.319659,1389,easyGO 1389,Cambridge Centre Terminal,0
+43.383328,,-80.32022,1384,easyGO 1384,Hespeler / Munch,0
+43.391227,,-80.319608,1385,easyGO 1385,Cambridge Centre Terminal,0
+43.391255,,-80.31942,1386,easyGO 1386,Cambridge Centre Terminal,0
+43.391296,,-80.319152,1387,easyGO 1387,Cambridge Centre Terminal,0
+43.388972,,-80.311752,1380,easyGO 1380,Elgin / Glenbrook,0
+43.386723,,-80.313593,1381,easyGO 1381,Elgin / Sekura,0
+43.384022,,-80.313643,1382,easyGO 1382,Munch / Kovac,0
+43.383192,,-80.317802,1383,easyGO 1383,Munch / Sekura,0
+43.5773,,-80.5632,3827,easyGO 3827,Arthur / Listowel,0
+43.5827,,-80.5624,3826,easyGO 3826,Arthur / South Parkwood,0
+43.5845,,-80.5623,3825,easyGO 3825,Arthur / Whippoorwill,0
+43.5894,,-80.5615,3824,easyGO 3824,Arthur / Howard,0
+43.5923,,-80.5634,3823,easyGO 3823,First / Snyder,0
+43.5934,,-80.5642,3822,easyGO 3822,Snyder / Second,0
+43.5952453,,-80.56395574,3821,easyGO 3821,Snyder / Brubacher,0
+43.5969,,-80.5637,3820,easyGO 3820,Snyder / South,0
+43.5406,,-80.5534,3829,easyGO 3829,King / Front,0
+43.5441,,-80.5491,3828,easyGO 3828,Sawmill / Parkside,0
+43.4436861,,-80.52247756,3911_merged_998606,easyGO 3911,Westmount / Chopin,
+43.455053,,-80.519694,2768,easyGO 2768,Union / Severn,0
+43.44357,,-80.512032,2762,easyGO 2762,Belmont / Victoria,0
+43.478062,,-80.484493,1945,easyGO 1945,Lancaster / Lang,0
+43.383328,,-80.29228,1369,easyGO 1369,Burnett / Buchanan,0
+43.461177,,-80.46435,1077,easyGO 1077,Frederick / Lois,0
+43.5076,,-80.5266,3759,easyGO 3759,Frobisher / Mcmurray,0
+43.5102,,-80.5244,3758,easyGO 3758,Frobisher / Superior,0
+43.5078,,-80.4974,3751,easyGO 3751,University / Woolwich Place,0
+43.5108,,-80.4975,3750,easyGO 3750,University / New Bedford,0
+43.5189,,-80.5087,3753,easyGO 3753,University / Country Squire,0
+43.518,,-80.5028,3752,easyGO 3752,University / Sportsplex,0
+43.5146,,-80.5195,3755,easyGO 3755,Northfield / Toman,0
+43.5172,,-80.5179,3754,easyGO 3754,Northfield / University,0
+43.5119,,-80.5233,3757,easyGO 3757,Frobisher / Bridge,0
+43.5119,,-80.5213,3756,easyGO 3756,Northfield / Bridge,0
+43.366572,,-80.320853,2190,easyGO 2190,George / James,0

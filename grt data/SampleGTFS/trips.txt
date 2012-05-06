@@ -1,0 +1,200 @@
+block_id,route_id,trip_headsign,service_id,shape_id,trip_id
+b_8102,201,UW/LAURIER,muwtf_merged_998639,20101,547831
+b_8101,201,UW/LAURIER,muwtf_merged_998639,20101,547830
+b_8101,201,UW/LAURIER,muwtf_merged_998639,20101,547833
+b_8103,201,UW/LAURIER,muwtf_merged_998639,20101,547832
+b_8103,201,UW/LAURIER,muwtf_merged_998639,20101,547835
+b_8102,201,UW/LAURIER,muwtf_merged_998639,20101,547834
+b_8102,201,UW/LAURIER,muwtf_merged_998639,20101,547837
+b_8101,201,UW/LAURIER,muwtf_merged_998639,20101,547836
+b_8101,201,UW/LAURIER,muwtf_merged_998639,20101,547839
+b_8103,201,UW/LAURIER,muwtf_merged_998639,20101,547838
+b_2031,6,Downtown,a_merged_998635,601,549305
+b_631,6,Downtown,a_merged_998635,601,549304
+b_631,6,Bridgeport,a_merged_998635,600_merged_998647,549307
+b_631,6,Downtown,a_merged_998635,601,549306
+b_631,6,Downtown,a_merged_998635,601,549301
+a_1234,31,Conestoga Mall,muwtf_merged_998634,3101,503354
+b_2031,6,Downtown,a_merged_998635,601,549303
+b_631,6,Downtown,a_merged_998635,601,549302
+a_8025,200,iXpress to Conestoga Mall,a_merged_998630,20001,507932
+b_331,3,Ottawa South,a_merged_998635,300,549309
+b_332,3,Ottawa South,a_merged_998635,300,549308
+b_2401,24,Highland to Downtown,a_merged_998635,2411,549806
+b_2402,24,Highland,muwtf_merged_998639,2401,544568
+b_2403,24,Highland,muwtf_merged_998639,2401,544569
+b_2402,24,Highland,muwtf_merged_998639,2401,544566
+b_2403,24,Highland,muwtf_merged_998639,2401,544567
+b_2402,24,Highland,muwtf_merged_998639,2401,544564
+b_2403,24,Highland,muwtf_merged_998639,2401,544565
+b_2402,24,Highland,muwtf_merged_998639,2401,544562
+b_2403,24,Highland,muwtf_merged_998639,2401,544563
+b_2402,24,Highland,muwtf_merged_998639,2401,544560
+b_2403,24,Highland,muwtf_merged_998639,2401,544561
+a_1282,31,Conestoga Mall,muwtf_merged_998634,3101,503355
+b_2401,24,Highland to Downtown,a_merged_998635,2411,549802
+b_2402,24,Highland to Downtown,a_merged_998635,2411,549803
+a_681,6,Bridgeport,muwtf_merged_998634,600_merged_998643,501118
+a_682,6,Bridgeport,muwtf_merged_998634,600_merged_998643,501119
+a_1133,6,Bridgeport,muwtf_merged_998634,600_merged_998643,501114
+a_1132,6,Bridgeport,muwtf_merged_998634,600_merged_998643,501115
+a_631,6,Bridgeport,muwtf_merged_998634,600_merged_998643,501116
+a_634,6,Bridgeport,muwtf_merged_998634,600_merged_998643,501117
+a_1132,6,Bridgeport,muwtf_merged_998634,600_merged_998643,501110
+a_631,6,Bridgeport,muwtf_merged_998634,600_merged_998643,501111
+a_634,6,Bridgeport,muwtf_merged_998634,600_merged_998643,501112
+a_1134,6,Bridgeport,muwtf_merged_998634,600_merged_998643,501113
+a_5202,52,Ainslie Terminal via Cherry Blossom,muwtf_merged_998634,5213,504760
+a_5202,52,Fairview via Cherry Blossom,muwtf_merged_998634,5203,504761
+a_5333,52,Ainslie Terminal via Preston Pkwy,muwtf_merged_998634,5211,504762
+a_5201,52,Fairview via Preston Pkwy,muwtf_merged_998634,5201,504763
+a_8003,200,iXpress to Conestoga Mall,muwtf_merged_998634,20001,504764
+a_8005,200,iXpress to Conestoga Mall,muwtf_merged_998634,20001,504765
+a_8002,200,iXpress to Conestoga Mall,muwtf_merged_998634,20001,504766
+a_8004,200,iXpress to Conestoga Mall,muwtf_merged_998634,20001,504767
+a_8021,200,iXpress to Conestoga Mall,muwtf_merged_998634,20001,504768
+a_8008,200,iXpress to Conestoga Mall,muwtf_merged_998634,20001,504769
+b_132,25,Queen South,a_merged_998635,2501,549833
+a_1284,31,Conestoga Mall,muwtf_merged_998634,3101,503357
+b_803,8,Fairview via Westmount/East TR,s_merged_998638,813,552639
+b_851,8,Fairview via Westmount/East TR,s_merged_998638,813,552638
+b_933,9,Lakeshore to UW,muwtf_merged_998639,901,546839
+b_804,8,Fairview via Westmount/East TR,s_merged_998638,813,552631
+b_803,8,Fairview via Westmount/East TR,s_merged_998638,813,552630
+b_804,8,Fairview via Westmount/East TR,s_merged_998638,813,552633
+b_803,8,Fairview via Westmount/East TR,s_merged_998638,813,552632
+b_803,8,Fairview via Westmount/East TR,s_merged_998638,813,552635
+b_803,8,Fairview via Westmount/East TR,s_merged_998638,813,552634
+b_803,8,Fairview via Westmount/East TR,s_merged_998638,813,552637
+b_631,6,Downtown,a_merged_998635,601,549300
+b_936,5,Erb West,a_merged_998635,501,550703
+b_931,5,Erb West,a_merged_998635,501,550702
+a_331,3,Ottawa South to Downtown,muwtf_merged_998634,301,501808
+a_1134,3,Ottawa South to Downtown,muwtf_merged_998634,301,501809
+b_932,5,Erb West,a_merged_998635,501,550707
+b_935,5,Erb West,a_merged_998635,501,550706
+b_933,5,Erb West,a_merged_998635,501,550705
+b_934,5,Erb West,a_merged_998635,501,550704
+a_331,3,Ottawa South to Downtown,muwtf_merged_998634,301,501802
+a_333,3,Ottawa South to Downtown,muwtf_merged_998634,301,501803
+a_332,3,Ottawa South to Downtown,muwtf_merged_998634,301,501800
+a_334,3,Ottawa South to Downtown,muwtf_merged_998634,301,501801
+a_331,3,Ottawa South to Downtown,muwtf_merged_998634,301,501806
+a_334,3,Ottawa South to Downtown,muwtf_merged_998634,301,501807
+a_332,3,Ottawa South to Downtown,muwtf_merged_998634,301,501804
+a_334,3,Ottawa South to Downtown,muwtf_merged_998634,301,501805
+b_932,9,Lakeshore to UW,muwtf_merged_998639,901,546832
+b_705,7,D UW via University,muwtf_merged_998639,708,545214
+b_934,9,Lakeshore to UW,muwtf_merged_998639,901,546833
+b_731,7,D UW via University,muwtf_merged_998639,708,545213
+b_939,9,Lakeshore to UW,muwtf_merged_998639,901,546830
+b_704,7,D UW via University,muwtf_merged_998639,708,545212
+b_940,5,Erb West,muwtf_merged_998639,501,546300
+b_932,5,Erb West,muwtf_merged_998639,501,546301
+b_934,5,Erb West,muwtf_merged_998639,501,546302
+b_931,5,Erb West,muwtf_merged_998639,501,546303
+b_940,5,Erb West,muwtf_merged_998639,501,546304
+b_936,5,Erb West,muwtf_merged_998639,501,546305
+b_1243,5,Erb West,muwtf_merged_998639,501,546306
+b_1242,5,Erb West,muwtf_merged_998639,501,546307
+b_934,5,Erb West,muwtf_merged_998639,501,546308
+b_1242,5,Erb West,muwtf_merged_998639,501,546309
+a_1232,31,Conestoga Mall,muwtf_merged_998634,3101,503351
+b_1382,9,Lakeshore to UW,muwtf_merged_998639,901,546837
+b_5532,59,Christopher,a_merged_998635,5900,550935
+b_132,25,Queen South to Downtown,muwtf_merged_998639,2511,545969
+b_2531,25,Queen South to Downtown,muwtf_merged_998639,2511,545968
+b_2401,24,Highland to Downtown,a_merged_998635,2411,549757
+b_2532,25,Queen South,muwtf_merged_998639,2501,545965
+b_2532,25,Queen South,muwtf_merged_998639,2501,545964
+b_2531,25,Queen South,muwtf_merged_998639,2501,545967
+b_2532,25,Queen South,muwtf_merged_998639,2501,545966
+b_2532,25,Queen South via Overlea,muwtf_merged_998639,2502,545961
+b_2534,25,Queen South via Overlea,muwtf_merged_998639,2502,545960
+b_2532,25,Queen South,muwtf_merged_998639,2501,545963
+b_2532,25,Queen South via Overlea,muwtf_merged_998639,2502,545962
+b_2231,23,Downtown,a_merged_998635,2311,549753
+b_231,15,Frederick,muwtf_merged_998639,1501,546047
+b_2236,15,Frederick,muwtf_merged_998639,1501,546046
+b_2281,15,Frederick,muwtf_merged_998639,1501,546045
+b_2234,15,Frederick,muwtf_merged_998639,1501,546044
+a_2532,24,Highland,a_merged_998630,2401,506469
+a_2532,24,Highland,a_merged_998630,2401,506468
+b_233,15,Frederick,muwtf_merged_998639,1501,546041
+b_231,15,Frederick,muwtf_merged_998639,1501,546040
+a_2532,24,Highland,a_merged_998630,2401,506465
+a_2402,24,Highland,a_merged_998630,2401,506464
+a_2532,24,Highland,a_merged_998630,2401,506467
+a_2532,24,Highland,a_merged_998630,2401,506466
+a_2401,24,Highland,a_merged_998630,2401,506461
+a_2402,24,Highland,a_merged_998630,2401,506460
+a_2401,24,Highland,a_merged_998630,2401,506463
+a_2402,24,Highland,a_merged_998630,2401,506462
+a_1236,31,Conestoga Mall,muwtf_merged_998634,3101,503353
+b_1131,11,Downtown Sunday,s_merged_998638,1112,552702
+a_708,7,D UW via University,a_merged_998630,708,508145
+a_2234,22,Laurentian West to Downtown,a_merged_998630,2212,506609
+a_431,22,Laurentian West to Downtown,a_merged_998630,2212,506608
+b_759,7,B Fairview Park via Weber,muwtf_merged_998639,711,545253
+a_2234,22,Laurentian West to Forest Glen,a_merged_998630,2211,506601
+a_2233,22,Laurentian West to Forest Glen,a_merged_998630,2211,506600
+a_2232,22,Laurentian West to Forest Glen,a_merged_998630,2211,506603
+a_2231,22,Laurentian West to Forest Glen,a_merged_998630,2211,506602
+a_2233,22,Laurentian West to Forest Glen,a_merged_998630,2211,506605
+a_2235,22,Laurentian West to Forest Glen,a_merged_998630,2211,506604
+a_2231,22,Laurentian West to Forest Glen,a_merged_998630,2211,506607
+a_2234,22,Laurentian West to Forest Glen,a_merged_998630,2211,506606
+b_6451,64,Langs,muwtf_merged_998639,6401,548324
+b_711,7,B Fairview Park via Weber,muwtf_merged_998639,711,545252
+a_5132,51,Hespeler Road to Ainslie Terminal,muwtf_merged_998634,5111,502473
+b_8024,200,iXpress to Conestoga Mall,muwtf_merged_998639,20001,548113
+a_1238,31,Conestoga Mall,muwtf_merged_998634,3101,503338
+b_706,7,B Fairview Park via Weber,muwtf_merged_998639,711,545251
+b_5632,64,Cambridge Centre,a_merged_998635,6411,550437
+b_6101,61,Cambridge Centre,muwtf_merged_998639,6111,547794
+a_5631,60,Northview Acres,muwtf_merged_998634,6000,501543
+b_6101,61,Cambridge Centre,muwtf_merged_998639,6111,547796
+b_6102,61,Cambridge Centre,muwtf_merged_998639,6111,547797
+b_6101,61,Conestoga College,muwtf_merged_998639,6100,547790
+b_6102,61,Cambridge Centre,muwtf_merged_998639,6111,547791
+b_6101,61,Cambridge Centre,muwtf_merged_998639,6111,547792
+a_2281,23,Downtown,muwtf_merged_998634,2311,501234
+b_708,7,D UW via University,muwtf_merged_998639,708,545217
+b_6101,61,Cambridge Centre,muwtf_merged_998639,6111,547798
+a_2231,23,Downtown,muwtf_merged_998634,2311,501237
+b_757,7,D UW via University,muwtf_merged_998639,708,545250
+b_2234,22,Laurentian West to Downtown,a_merged_998635,2212,549936
+b_2231,22,Laurentian West to Downtown,a_merged_998635,2212,549937
+b_2235,22,Laurentian West to Downtown,a_merged_998635,2212,549934
+a_5632,60,Northview Acres,muwtf_merged_998634,6000,501540
+b_2231,22,Laurentian West to Downtown,a_merged_998635,2212,549932
+b_2232,22,Laurentian West to Downtown,a_merged_998635,2212,549933
+b_2233,22,Laurentian West to Downtown,a_merged_998635,2212,549930
+b_2234,22,Laurentian West to Downtown,a_merged_998635,2212,549931
+a_2235,23,Downtown,muwtf_merged_998634,2311,501231
+b_1031,10,Fairview Park via Becthel,a_merged_998635,1012,549938
+a_2232,23,Downtown,muwtf_merged_998634,2311,501230
+a_5631,60,Northview Acres,muwtf_merged_998634,6000,501545
+a_2234,23,Downtown,muwtf_merged_998634,2311,501232
+b_1242,12,To University at King,muwtf_merged_998639,1202,547702
+b_933,35,Eastbridge to Conestoga Mall,muwtf_merged_998639,3511,546658
+b_932,35,Eastbridge to Conestoga Mall,muwtf_merged_998639,3511,546659
+b_1235,12,To Conestoga Mall,muwtf_merged_998639,1201,547707
+b_731,7,B Fairview Park via Weber,muwtf_merged_998639,711,545256
+b_1231,12,To Conestoga Mall,muwtf_merged_998639,1201,547706
+a_739,7,D UW via University,s_merged_998633,702,509495
+a_705,7,D UW via University,s_merged_998633,702,509494
+a_702,7,D UW via University,s_merged_998633,702,509497
+a_737,7,D UW via University,s_merged_998633,702,509496
+a_706,7,D UW via University,s_merged_998633,702,509491
+a_702,7,D UW via University,s_merged_998633,702,509490
+a_731,7,D UW via University,s_merged_998633,702,509493
+a_734,7,D UW via University,s_merged_998633,702,509492
+a_734,7,D UW via University,s_merged_998633,702,509499
+a_706,7,D UW via University,s_merged_998633,702,509498
+b_9967,9967,SMH-Fairview Express 3,muwtf_merged_998639,996701,544934
+b_702,7,B Fairview Park via Weber,muwtf_merged_998639,711,545255
+a_1242,17,Heritage Park,muwtf_merged_998634,1700,502256
+b_711,7,E UW via Columbia,muwtf_merged_998639,706,545198
+a_1033,17,Heritage Park,muwtf_merged_998634,1700,502257
+b_2234,22,Laurentian West to Forest Glen,a_merged_998635,2201,549891
