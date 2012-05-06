@@ -9,6 +9,20 @@ var app = express.createServer();
 
 mongoose.connect('mongodb://localhost/grtapiDB');
 
+//Schema Design
+
+var Schema = mongoose.Schema;
+var Widget = new Schema({
+	key      : {type : String},
+	value    : {type : String},
+	modified : {type : Date, default : Date.now}
+});
+
+
+var WidgetModel = mongoose.model('Widget', Widget);
+
+
+
 // Config
 
 app.configure(function () {
@@ -58,17 +72,7 @@ app.post('/api/widget', function(req, res){
 })
 
 
-//Schema Design
 
-var Schema = mongoose.Schema;
-var Widget = new Schema({
-	key      : {type : String},
-	value    : {type : String},
-	modified : {type : Date, default : Date.now}
-});
-
-
-var WidgetModel = mongoose.model('Widget', Widget);
 
 
 
