@@ -47,7 +47,7 @@ var StopBusSchema = new Schema({
 var StopModel = mongoose.model('Stop', StopSchema);
 var BusModel  = mongoose.model('Bus' , BusSchema);
 var TimeModel = mongoose.model('Time', TimeSchema);
-var StopBus   = mongoose.model('StopBus', StopBusSchema);
+var StopBusModel   = mongoose.model('StopBus', StopBusSchema);
 
 
 

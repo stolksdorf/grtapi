@@ -81,6 +81,7 @@ function sendToEC2($resource, $data){
 	global $pest;
 	$demo = true;
 	if($demo){
+		echo $resource . '\n';
 		echo print_r($data,true);
 	}else{
 		$pest->post($resource, $data);
