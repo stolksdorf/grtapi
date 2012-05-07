@@ -87,7 +87,7 @@ app.get('/api/bus', function(req, res){
 				var bus  = buses[i];
 				console.log(bus);
 
-				StopBusModel.find(bus, function(error, data){
+				StopBusModel.find({busnum:bus.busnum}, function(error, data){
 					console.log("bus", data);
 
 				});
