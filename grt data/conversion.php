@@ -70,7 +70,7 @@ function buildBusAndTimeTable($inTrips, $inTimes){
 
 		sendToEC2('/stopbus', array(
 		        'stopid' => $time['stop_id'],
-		        'busnum'  => $busnum,
+		        'busnum'  => $busnum
 		));
 	}
 
