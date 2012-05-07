@@ -87,10 +87,10 @@ app.get('/api/bus', function(req, res){
 
 			for(var i=0; i<buses.length; i++){
 				var bus  = buses[i];
-				bus.stops = [];
+				bus["stops"] = [];
 				StopBusModel.find({busnum:bus.busnum}, function(error, data){
 					if(!error){
-						bus.stops.push(data.stopid);
+						bus["stops"].push(data.stopid);
 					}
 				});
 				result.push(bus);
