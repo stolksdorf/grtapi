@@ -22,9 +22,9 @@ mongoose.connect('mongodb://localhost/grtapiDB');
 var Schema = mongoose.Schema;
 
 var StopSchema = new Schema({
-	stopnum  : {type : String},
-	gpslon   : {type : Number},
-	gpslat   : {type : Number},
+	stopid  : {type : String},
+	lon   : {type : Number},
+	lat   : {type : Number},
 	stopname : {type : String}
 });
 
@@ -34,14 +34,14 @@ var BusSchema = new Schema({
 });
 
 var TimeSchema = new Schema({
-	stopnum  : {type : String},
+	stopid  : {type : String},
 	busnum   : {type : String},
 	time     : {type : String}
 });
 
 var StopBusSchema = new Schema({
 	busnum  : {type : String},
-	stopnum : {type : String}
+	stopid : {type : String}
 });
 
 var StopModel = mongoose.model('Stop', StopSchema);
@@ -111,15 +111,15 @@ app.get('/api/search', function(req, res){
 ////////////REST POST Commands
 app.post('/api/stop', function(req, res){
 	var stop = new StopModel({
-		stopnum  : req.body.stopnum,
-		gpslon   : req.body.gpslon,
-		gpslat   : req.body.gpslat,
+		stopid  : req.body.stopid,
+		lon   : req.body.lon,
+		lat   : req.body.lat,
 		stopname : req.body.stopname
 	});
 
 	stop.save(function (err) {
 		if (!err) {
-			return console.log("Added New Stop: " + req.body.stopnum);
+			return console.log("Added New Stop: " + req.body.stopid);
 		} else {
 			return console.log("POST Stop ERR: ", err);
 		}
@@ -145,14 +145,14 @@ app.post('/api/bus', function(req, res){
 
 app.post('/api/time', function(req, res){
 	var time = new TimeModel({
-		stopnum  : req.body.stopnum,
+		stopid  : req.body.stopid,
 		busnum   : req.body.busnum,
 		time     : req.body.time
 	});
 
 	time.save(function (err) {
 		if (!err) {
-			return console.log("Added New Time: " + req.body.stopnum + 
+			return console.log("Added New Time: " + req.body.stopid + 
 			                   " for " + req.body.busnum + 
 			                   " at " + req.body.time);
 		} else {
@@ -164,13 +164,13 @@ app.post('/api/time', function(req, res){
 
 app.post('/api/stopbus', function(req, res){
 	var stopbus = new StopBusModel({
-		stopnum  : req.body.stopnum,
+		stopid  : req.body.stopid,
 		busnum   : req.body.busnum
 	});
 
 	stopbus.save(function (err) {
 		if (!err) {
-			return console.log("Added New Stop: " + req.body.stopnum + " for " + req.body.busnum);
+			return console.log("Added New Stop: " + req.body.stopid + " for " + req.body.busnum);
 		} else {
 			return console.log("POST Time ERR: ", err);
 		}

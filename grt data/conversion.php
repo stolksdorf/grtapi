@@ -33,10 +33,10 @@ function extractCSV($path){
 function buildStopTable($inStops){
 	foreach($inStops as $stop){
 		sendToEC2('/stop', array(
-				'stopnum' => $stop['stop_id'],
+				'stopid' => $stop['stop_id'],
 				'stopname' => $stop['stop_name'],
-				'gpslat'  => $stop['stop_lat'],
-				'gpslon'  => $stop['stop_lon']
+				'lat'  => $stop['stop_lat'],
+				'lon'  => $stop['stop_lon']
 		));
 	}
 }
@@ -55,14 +55,14 @@ function buildBusAndTimeTable($inTrips, $inTimes){
 		}
 
 		sendToEC2('/time', array(
-		           'stopnum' => $time['stop_id'],
+		           'stopid' => $time['stop_id'],
 		           'busnum'  => $busnum,
 		           'time'    => $time['departure_time']
 		));
 
 		//if(!in_array($busnum, $processedBuses)){
 			sendToEC2('/bus', array(
-			        'stopnum' => $time['stop_id'],
+			        'stopid' => $time['stop_id'],
 			        'busnum'  => $busnum,
 			        'busdesc' => $busdesc
 			));
@@ -75,7 +75,7 @@ function buildBusAndTimeTable($inTrips, $inTimes){
 
 function sendToEC2($resource, $data){
 	global $pest;
-	$demo = true;
+	$demo = false;
 	if($demo){
 		echo print_r($data,true);
 	}else{
@@ -122,13 +122,13 @@ listOfProcessedBuses = array();
 foreach(timeRow in stopTimes){
 	tripRow = getTrip(timeRow.trip_id);
 	outTimes.push(
-		'stopnum' => timeRow.stop_id,
+		'stopid' => timeRow.stop_id,
 		'busnum'  => tripRow.route_id, //requires some post-processing
 		'time'    => timeRow.depart_time
 	);
 	if(listOfProcessedBuses does not contain tripRow.route_id){
 		outBuses.push(
-			'stopnum' => timeRow.stop_id,
+			'stopid' => timeRow.stop_id,
 			'busnum'  => tripRow.route_id,
 			'busdesc' => tripRow.trip_headsign		
 		);
