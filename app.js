@@ -81,10 +81,7 @@ app.get('/api/stop', function(req, res){
 });
 
 app.get('/api/bus', function(req, res){
-
-	console.log(req.body);
-
-	BusModel.find({}, function(error, buses){
+	BusModel.find(req.query, function(error, buses){
 		if(!error){
 			return res.send(buses);
 		}else{
