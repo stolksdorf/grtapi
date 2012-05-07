@@ -60,13 +60,13 @@ function buildBusAndTimeTable($inTrips, $inTimes){
 		           'time'    => $time['departure_time']
 		));
 
-		//if(!in_array($busnum, $processedBuses)){
-		sendToEC2('/bus', array(
-		        'busnum'  => $busnum,
-		        'busdesc' => $busdesc
-		));
-			//array_push($processedBuses, $busnum);
-		//}
+		if(!in_array($busnum, $processedBuses)){
+			sendToEC2('/bus', array(
+			        'busnum'  => $busnum,
+			        'busdesc' => $busdesc
+			));
+			array_push($processedBuses, $busnum);
+		}
 
 		sendToEC2('/stopbus', array(
 		        'stopid' => $time['stop_id'],
@@ -79,7 +79,7 @@ function buildBusAndTimeTable($inTrips, $inTimes){
 
 function sendToEC2($resource, $data){
 	global $pest;
-	$demo = true;
+	$demo = false;
 	if($demo){
 		echo $resource . '\n';
 		echo print_r($data,true);

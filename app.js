@@ -70,6 +70,7 @@ app.get('/api/dump', function(req, res){
 
 ///////////REST GET Commands
 app.get('/api/stop', function(req, res){
+
 	StopModel.find({}, function(error, stops){
 		if(!error){
 			return res.send(stops);
@@ -80,6 +81,9 @@ app.get('/api/stop', function(req, res){
 });
 
 app.get('/api/bus', function(req, res){
+
+	console.log(req.body);
+
 	BusModel.find({}, function(error, buses){
 		if(!error){
 			return res.send(buses);
