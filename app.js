@@ -91,7 +91,9 @@ app.get('/api/bus', function(req, res){
 				var stops = [];
 				StopBusModel.find({busnum:bus.busnum}, function(error, data){
 					if(!error){
+						console.log(data);
 						for(var i2 = 0; i2 < data.length ; i2++){
+							console.log("yup",data[i2].stopid);
 							stops.push(data[i2].stopid);
 						}
 					}
