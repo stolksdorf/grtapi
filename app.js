@@ -83,16 +83,21 @@ app.get('/api/stop', function(req, res){
 app.get('/api/bus', function(req, res){
 	BusModel.find(req.query, function(error, buses){
 		if(!error){
+			var result = [];
+
 			for(var i=0; i<buses.length; i++){
 				var bus  = buses[i];
 				console.log(bus);
 
+				bus.stops = [];
 				StopBusModel.find({busnum:bus.busnum}, function(error, data){
-					console.log("bus", data);
-
+					if(!error){
+						bus.stops.push(data.stopid);
+					}
 				});
+				result.push(bus);
 			}
-			return res.send(buses);
+			return res.send(result);
 		}else{
 			return console.log("GET Bus ERR: ", error);
 		}
