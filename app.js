@@ -99,6 +99,19 @@ app.get('/api/time', function(req, res){
 	});
 });
 
+
+
+
+app.get('/api/stopbus', function(req, res){
+	StopBusModel.find({}, function(error, times){
+		if(!error){
+			return res.send(times);
+		}else{
+			return console.log("GET Time ERR: ", error);
+		}
+	});
+});
+
 app.get('/api/search', function(req, res){
 
 	return res.send('Implementating this later bro');
