@@ -79,7 +79,7 @@ function buildBusAndTimeTable($inTrips, $inTimes){
 
 function sendToEC2($resource, $data){
 	global $pest;
-	$demo = false;
+	$demo = true;
 	if($demo){
 		echo print_r($data,true);
 	}else{
